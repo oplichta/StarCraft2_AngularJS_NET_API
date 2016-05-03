@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF389381-BA25-4243-8AB4-7310CF149AED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4FFD209F-AF7F-43C6-A14B-6B4123091762}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StarCraft2_AngularJS_NET_API", "src\StarCraft2_AngularJS_NET_API\StarCraft2_AngularJS_NET_API.xproj", "{E0FA3669-2B2B-4AE9-9789-90AD6F76467B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0FA3669-2B2B-4AE9-9789-90AD6F76467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FA3669-2B2B-4AE9-9789-90AD6F76467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FA3669-2B2B-4AE9-9789-90AD6F76467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FA3669-2B2B-4AE9-9789-90AD6F76467B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0FA3669-2B2B-4AE9-9789-90AD6F76467B} = {BF389381-BA25-4243-8AB4-7310CF149AED}
+	EndGlobalSection
+EndGlobal
