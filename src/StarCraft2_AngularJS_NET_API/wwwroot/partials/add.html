@@ -1,0 +1,18 @@
+﻿<div>
+    <p>Add a new unit</p>
+
+    <form ng-submit="addUnit()">
+        <label for="name">Name</label>
+        <input ng-model="unit.Name" name="name" type="text" />
+
+        <label for="descripton">Descripton</label>
+        <input ng-model="unit.Description" name="description" type="text" />
+
+        <label for="race">Race</label>
+        <input ng-model="unit.Race" name="race" type="text" />
+
+        <button type="submit">Save</button>
+        <button href="/" type="submit">Cancel</button>
+
+    </form>
+</div>
